@@ -1,0 +1,47 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 4rem; 
+    img {
+        width: 80px;
+    }
+    i {
+        color: #ec563d;
+        font-size: 2rem;
+    }
+    i:hover {
+        color: blue;
+        cursor: pointer;
+    }
+}
+
+.hero {
+    padding: 2rem 4rem; 
+    width: 100%;
+    background-color: #ddd;
+    min-height: 100vh;
+    .left {
+        width: 50%;
+        height: 40%;
+        background-color: aqua;
+        span {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ec563d;
+        }
+    }
+    
+}
